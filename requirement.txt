@@ -1,0 +1,50 @@
+# Django
+Django>=4.2.0
+django-phonenumber-field[phonenumbers]>=7.0.0
+
+# Database
+psycopg2-binary>=2.9.6
+django-environ>=0.10.0
+
+# Forms
+django-crispy-forms>=2.0
+crispy-bootstrap5>=0.7
+
+# API
+djangorestframework>=3.14.0
+django-cors-headers>=4.0.0
+
+# Async tasks
+celery>=5.2.7
+redis>=4.5.4
+django-celery-beat>=2.5.0
+django-celery-results>=2.5.0
+
+# Images
+Pillow>=9.5.0
+
+# Email
+django-anymail>=9.0
+
+# Security
+cryptography>=41.0.2
+pyjwt>=2.7.0
+
+# Monitoring
+django-debug-toolbar>=3.8.1
+
+# Production
+gunicorn>=20.1.0
+whitenoise>=6.4.0
+
+# Data analysis
+pandas>=2.0.2
+numpy>=1.24.3
+
+# Testing
+pytest>=7.3.2
+pytest-django>=4.5.2
+factory-boy>=3.2.1
+
+# Documentation
+sphinx>=6.2.1
